@@ -1,6 +1,6 @@
 :root{
     --main-font: 'Roboto', sans-serif;
-    --logo-font: 'Raleway' sans-serif;
+    --logo-font: 'Raleway', sans-serif;
 
     --accent-color: #2196F3;
     --order-btn-hover-color: #188CE8;
@@ -180,7 +180,7 @@ body{
     color: var(--muted-text-color);
 }
 
-.footer{
+.container{
     background-color: var(--bg-footer-color);
 }
 
