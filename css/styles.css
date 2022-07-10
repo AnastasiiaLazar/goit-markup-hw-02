@@ -11,10 +11,9 @@
     --mute-logo-transparent-text: rgba(255, 255, 255, 0.6);
 
     --bg-primary-color: #FFFFFF; 
-    --bg-hero-color: #2F303A;
+    --bg-main-dark-color: #2F303A;
     --bg-team-section-color: #F5F4FA;
     --bg-card-color: #FFFFFF;
-    --bg-footer-color: #2F303A;
     --bg-filter-btn: #F5F4FA;
 }
 
@@ -91,7 +90,7 @@ body{
 }
 
 .hero{
-    background-color: var(--bg-hero-color);
+    background-color: var(--bg-main-dark-color);
 }
 
 .main-title{
@@ -180,8 +179,8 @@ body{
     color: var(--muted-text-color);
 }
 
-.container{
-    background-color: var(--bg-footer-color);
+.footer{
+    background-color: var(--bg-main-dark-color);
 }
 
 .logo-part-footer {
