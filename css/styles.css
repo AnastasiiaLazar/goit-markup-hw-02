@@ -1,0 +1,253 @@
+:root{
+    --main-font: 'Roboto', sans-serif;
+    --logo-font: 'Raleway' sans-serif;
+
+    --accent-color: #2196F3;
+    --order-btn-hover-color: #188CE8;
+    --main-text-color: #212121;
+    --muted-text-color: #757575;
+    --light-text-color: #FFFFFF;
+    --dark-logo-text-color: #000000;
+    --mute-logo-transparent-text: rgba(255, 255, 255, 0.6);
+
+    --bg-primary-color: #FFFFFF; 
+    --bg-hero-color: #2F303A;
+    --bg-team-section-color: #F5F4FA;
+    --bg-card-color: #FFFFFF;
+    --bg-footer-color: #2F303A;
+    --bg-filter-btn: #F5F4FA;
+}
+
+body{
+    font-family: var(--main-font);
+    background-color: var(--bg-primary-color);
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.logo{
+    font-family: var(--logo-font);
+    color: var(--accent-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+}
+
+.logo-part-header {
+    color: var(--dark-logo-text-color);
+}
+
+.menu-link {
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.current-link{
+    color: var(--accent-color);
+}
+
+.menu-link:hover,
+.menu-link:focus{
+    color: var(--accent-color);
+}
+
+.e-mail{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--muted-text-color);
+}
+
+.e-mail:hover,
+.e-mail:focus{
+    color: var(--accent-color);
+}
+
+.phone-number{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--muted-text-color);
+}
+
+.phone-number:hover,
+.phone-number:focus {
+    color: var(--accent-color);
+}
+
+.hero{
+    background-color: var(--bg-hero-color);
+}
+
+.main-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--light-text-color); 
+}
+
+.order-btn{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    display: flex;
+    letter-spacing: 0.06em;
+
+    color: var(--light-text-color);
+
+    background-color: var(--accent-color);
+
+    cursor: pointer;
+}
+
+.order-btn:hover,
+.order-btn:focus{
+    background-color: var(--order-btn-hover-color);
+}
+
+
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    
+    color: var(--main-text-color);
+}
+
+
+.feature-item{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--main-text-color);
+}
+
+.description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    
+    color: var(--muted-text-color);
+}
+
+.team{
+    background-color: var(--bg-team-section-color);
+}
+
+.member{
+    background-color: var(--bg-card-color);
+}
+
+.name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    
+    color: var(--main-text-color);
+}
+
+.position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    
+    color: var(--muted-text-color);
+}
+
+.footer{
+    background-color: var(--bg-footer-color);
+}
+
+.logo-part-footer {
+    color: var(--light-text-color);
+}
+
+.address {
+    font-style: normal;
+}
+
+.location{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    
+    color: var(--light-text-color);
+}
+
+.contact{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    
+    color: var(--mute-logo-transparent-text);
+}
+
+.filter-btn{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    
+    text-align: center;
+    
+    color: var(--main-text-color);
+
+    background-color: var(--bg-filter-btn);
+}
+
+.filter-btn:hover,
+.filter-btn:focus{
+    color: var(--light-text-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.example-item{
+    background-color: var(--bg-card-color);
+}
+
+.project-name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color:var(--main-text-color);
+}
+
+.project-type{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    
+    color: var(--muted-text-color);
+}
+
+
+
