@@ -20,7 +20,6 @@
 body{
     font-family: var(--main-font);
     background-color: var(--bg-primary-color);
-    letter-spacing: 0.03em;
 }
 
 .list {
@@ -34,10 +33,10 @@ body{
 .logo{
     font-family: var(--logo-font);
     color: var(--accent-color);
-    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .logo-part-header {
@@ -131,6 +130,7 @@ body{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    letter-spacing: 0.03em;
     
     color: var(--main-text-color);
 }
@@ -140,15 +140,16 @@ body{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-
+    
     color: var(--main-text-color);
 }
 
 .description{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71px;
+    letter-spacing: 0.03em;
     
     color: var(--muted-text-color);
 }
@@ -165,15 +166,17 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     text-align: center;
+    
     
     color: var(--main-text-color);
 }
 
 .position{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     text-align: center;
     
     color: var(--muted-text-color);
@@ -192,17 +195,17 @@ body{
 }
 
 .location{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     
     color: var(--light-text-color);
 }
 
 .contact{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     
     color: var(--mute-logo-transparent-text);
 }
@@ -212,6 +215,7 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    letter-spacing: 0.03em;
     
     text-align: center;
     
@@ -241,9 +245,9 @@ body{
 }
 
 .project-type{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.03em;
     
     color: var(--muted-text-color);
 }
